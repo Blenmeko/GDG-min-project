@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    background: linear-gradient(pink);
+    font-family: Arial, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+header {
+   color: black;
+   padding: 20px 60px;
+    background: linear-gradient(white, pink);
+    font-family: Arial, sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+gap: 30px;
+}
+nav a{
+    font-weight: bold;
+    text-decoration: solid;
+    color:color-mix(in hsl longer hue, white 20%, red 40%)
+}
+nav a:hover{
+    color:papayawhip
+}
+section{
+    padding: 85px 70px;
+}
+.intro {
+   text-align: center;
+    background: #f4f4f4;
+    padding: 120px 60px; 
+}
+.button{
+    padding: 10px 20px;
+    border: none;
+    background: #111;
+    color: white;
+    cursor: pointer;
+}
+.button:hover{
+    background: bisque;
+}
+input, textarea {
+    display: block;
+    width: 300px;
+    margin-top: 10px;
+    padding: 10px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    color: white;
+}
+
